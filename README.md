@@ -1,5 +1,6 @@
 # Unity-Sakums
 Testa projekts, ar ko saprast kā lietot Unity
+## Gits nestrādāja, tādēļ nevarēju pievienot.
 
 **Darāmo darbu saraksts:**
 - [x] UI Button lietojums
@@ -8,10 +9,10 @@ Testa projekts, ar ko saprast kā lietot Unity
 - [x] UI Image lietojums
 - [x] UI radio button lietojums
 - [x] UI slider lietojums
-- [ ] Drag and drop funkcionalitāte
+- [x] Drag and drop funkcionalitāte
 - [x] Audio source lietojums
-- [ ] Riggid body un collider lietojums
-- [ ] Projekta sagatavošana Windows OS
+- [x] Riggid body un collider lietojums
+- [x] Projekta sagatavošana Windows OS
 - [ ] Izveidot galvenās izvēlnes ainu(paši)
 - [ ] Izveidot TV ainu (paši)
 - [ ] Integrēt virtuļu ķeršanas spēli
