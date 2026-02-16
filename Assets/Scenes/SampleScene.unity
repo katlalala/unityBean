@@ -362,6 +362,7 @@ GameObject:
   - component: {fileID: 54154436}
   - component: {fileID: 54154435}
   - component: {fileID: 54154434}
+  - component: {fileID: 54154437}
   m_Layer: 5
   m_Name: Building2
   m_TagString: Untagged
@@ -517,6 +518,28 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 54154432}
   m_CullTransparentMesh: 1
+--- !u!114 &54154437
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 54154432}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b6921cef54fc2f4c96266b29e682af4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  power: 0.5
+  jigglePosition: 1
+  positionJigAmount: {x: 4.02, y: 0}
+  positionFrequency: 37.2
+  jiggleRotation: 1
+  rotationJigAmount: {x: 0.5, y: 0.4, z: 0}
+  rotationFrequency: 4
+  jiggleScale: 1
+  scaleJigAmount: {x: 0.2, y: 0}
+  scaleFrequency: 5.3
 --- !u!1 &75116236
 GameObject:
   m_ObjectHideFlags: 0
@@ -1332,7 +1355,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -0.000015258789, y: 54.17103}
+  m_AnchoredPosition: {x: -0.000015258789, y: 54.17106}
   m_SizeDelta: {x: 0, y: 300}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &227603862
@@ -7630,8 +7653,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 209682192}
   m_HandleRect: {fileID: 209682191}
   m_Direction: 2
-  m_Value: -0.0000008450347
-  m_Size: 0.819426
+  m_Value: -0.0000014083912
+  m_Size: 0.8193917
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -7951,14 +7974,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   power: 0.5
   jigglePosition: 1
-  positionJigAmount: {x: 0, y: 0}
-  positionFrequency: 12.8
+  positionJigAmount: {x: 4.02, y: 0}
+  positionFrequency: 37.2
   jiggleRotation: 1
-  rotationJigAmount: {x: 0, y: 0, z: 0}
-  rotationFrequency: 10.1
-  jiggleScale: 0
-  scaleJigAmount: {x: 0, y: 0}
-  scaleFrequency: 0
+  rotationJigAmount: {x: 0.5, y: 0.4, z: 0}
+  rotationFrequency: 4
+  jiggleScale: 1
+  scaleJigAmount: {x: 0.2, y: 0}
+  scaleFrequency: 5.3
 --- !u!1 &1861636201
 GameObject:
   m_ObjectHideFlags: 0
