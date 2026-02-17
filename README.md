@@ -16,7 +16,7 @@ Testa projekts, kas demonstrē Unity UI elementu lietojumu par tēmu "MR. Bīns"
 - [x] Izveidot TV ainu (paši)
 
 ## Virtuļu ķeršanas spēle
-### Darbs ir uz *master* branch. Dzīvības sistēma, laiks un punkti (daļēj) ir pabeigti. Sākumā beans tikai raustās ko es nemācēju izlabot.
+### Darbs ir uz *MASTER* branch. Dzīvības sistēma, laiks un punkti (daļēj) ir pabeigti. Sākumā beans tikai raustās ko es nemācēju izlabot.
 - [x] Integrēt virtuļu ķeršanas spēli
       
 
