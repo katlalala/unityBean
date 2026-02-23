@@ -8,8 +8,6 @@ public class DragScript : MonoBehaviour,
     private Canvas canvas;
     SFX_Script sfxScript;
 
-
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         sfxScript = FindFirstObjectByType<SFX_Script>();
@@ -17,18 +15,18 @@ public class DragScript : MonoBehaviour,
     }
     public void OnPointerDown(PointerEventData data)
     {
-        Debug.Log("Izdar?ts klik�?is uz velkam? objekta");
+        Debug.Log("Izdarīts klikšķis uz velkamā objekta");
             sfxScript.PlaySFX(0);
     }
 
     public void OnBeginDrag(PointerEventData data)
     {
-        Debug.Log("S?kts vilk�anas process");
+        Debug.Log("Sākts vilkšanas process");
     }
 
     public void OnDrag(PointerEventData data)
     {
-        Debug.Log("Notiek vilk�ana");
+        Debug.Log("Notiek vilkšana");
         Vector2 mousePosition = data.position;
         mousePosition.x = Mathf.Clamp(mousePosition.x,
             0 + rectTransform.rect.width / 2,
@@ -43,6 +41,6 @@ public class DragScript : MonoBehaviour,
 
     public void OnEndDrag(PointerEventData data)
     {
-        Debug.Log("Beigta vilk�ana");
+        Debug.Log("Beigta vilkšana");
     }
 }

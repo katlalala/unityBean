@@ -7,7 +7,7 @@ public class SoundButtonScript : MonoBehaviour
     [SerializeField] Image soundOnIcon;
     [SerializeField] Image soundOffIcon;
     private bool muted = false;
-    // Start is called before the first frame update
+
     void Start()
     {
         if (!PlayerPrefs.HasKey("muted"))
