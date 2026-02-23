@@ -1,7 +1,13 @@
 # Unity_bean
 Testa projekts, kas demonstrē Unity UI elementu lietojumu par tēmu "MR. Bīns"
+## Mērķis ir lai iemācītos par C# un Unity pamatfunkcijām.
 
 **Darāmo darbu saraksts:**
+- [x] Projekta sagatavošana Windows OS
+- [x] Izveidot galvenās izvēlnes ainu (paši)
+
+
+## UI Aina
 - [x] UI Button lietojums
 - [x] UI Input field lietojums
 - [x] UI Text lietojums
@@ -11,15 +17,15 @@ Testa projekts, kas demonstrē Unity UI elementu lietojumu par tēmu "MR. Bīns"
 - [x] Drag and drop funkcionalitāte
 - [x] Audio source lietojums
 - [x] Riggid body un collider lietojums
-- [x] Projekta sagatavošana Windows OS
-- [x] Izveidot galvenās izvēlnes ainu (paši)
+
+![image alt](https://github.com/katlalala/unityBean/blob/main/beanMain.png?raw=true)
+
+## TV projekts
 - [x] Izveidot TV ainu (paši)
 
+![image alt](https://github.com/katlalala/unityBean/blob/main/beanTV.png?raw=true)
+
 ## Virtuļu ķeršanas spēle
-### Darbs ir uz *MASTER* branch. Dzīvības sistēma, laiks un punkti (daļēj) ir pabeigti. Sākumā beans tikai raustās ko es nemācēju izlabot.
 - [x] Integrēt virtuļu ķeršanas spēli
-      
 
-![image alt](https://github.com/katlalala/unityBean/blob/master/image1.png?raw=true)
-
-
+![image alt](https://github.com/katlalala/unityBean/blob/main/beanDonut.png?raw=true)
